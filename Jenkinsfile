@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "yourdockerhubusername/cicd-demo"
+        IMAGE_NAME = "lenoshka/cicd-demo"
         IMAGE_TAG = "${BUILD_NUMBER}"
     }
 
